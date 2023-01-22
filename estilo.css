@@ -1,0 +1,135 @@
+/*-- LOGIN FRAME --*/
+
+/*-- CONFIGURAÇÃO GLOBAL --*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: zector;
+    src: url(fontes/Zector.woff);
+}
+
+body {
+    background-color: #f2f2f2;
+}
+.container {
+    width: 1000px;
+    margin: 2.5em auto;
+    background-color: white;
+    
+}
+
+
+/* -- INÍCIO ESPAÇO FORMULÁRIO -- */
+h2 {
+    font-family: zector;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: rgb(66, 66, 66);
+}
+.container-formulario {
+    width: 500px;
+    float: left;
+    margin: 0 auto;
+    margin-left: 500px;
+}
+
+.espaco-formulario-links {
+    width: 500px;
+    margin-top: 12em;
+    
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    
+}
+
+label {
+    display: block;
+    font-size: 0.95em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66, 66, 66);
+}
+
+input {
+    width: 99%;
+    margin: 0.5em 0;
+    height: 3.5em;
+    margin-bottom: 1em;
+    border: solid 1px #e6e6e6;
+}
+
+input:hover {
+    border:  rgb(19, 201, 140) solid 1px;
+}
+
+input[type="submit"] {
+    background-color: rgb(19, 201, 140);
+    color: white;
+    width: 100%;
+    font-size: 0.8em;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(66, 66, 66);
+}
+
+.espaco-links {
+    margin-top: 1.5em;
+    text-align: center;
+    line-height: 1.6em;
+}
+
+.espaco-links span {
+    color: rgb(66, 66, 66);
+    font-size: 0.95em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.espaco-links a,
+.cadastrar a {
+    color:  rgb(19, 201, 140);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.95em;
+}
+
+.espaco-links a:hover,
+.cadastrar a:hover {
+    color: rgb(66, 66, 66);
+}
+.cadastrar {
+    text-align: center;
+    margin-top: 16em;
+}
+
+.cadastrar a {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+
+/* -- FIM ESPAÇO FORMULÁRIO -- */
+
+
+/* -- ESPAÇO IMAGEM -- */
+.espaco-imagem {
+    width: 500px;
+    height: 850px;
+    float: left;
+    margin: 0 0 0 -1000px;
+    background-image: url(imagens/000476e4d47eaab65c6c411c3b82af79\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
